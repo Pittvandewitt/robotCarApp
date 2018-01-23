@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">RobotCar</string>
+    <string name="connection_state">Status</string>
+    <string name="connection_try">Proberen te verbinden met</string>
+    <string name="connection_lost">Verbinding verbroken, opnieuw verbinden&#8230;</string>
+    <string name="bluetooth_on">Bluetooth is uitgeschakeld</string>
+    <string name="bluetooth_reconnect">Verbonden met Bluetooth, opnieuw verbinden&#8230;</string>
+    <string name="bluetooth_off">Bluetooth werd uitgeschakeld, opnieuw opstarten&#8230;</string>
+    <string name="never_paired">is niet gekoppeld. Koppel eerst via Android instellingen</string>
+    <string name="command_send_try">Probeert "%1$s" te sturen</string>
+    <string name="command_sent">"%1$s" succesvol gestuurd</string>
+    <string name="command_not_sent">Kon "%1$s" niet sturen want er is geen verbinding</string>
+    <string name="command_up">Vooruit</string>
+    <string name="command_down">Achteruit</string>
+    <string name="command_left">Links</string>
+    <string name="command_right">Rechts</string>
+    <string name="sensitivity">Snelheid</string>
+    <string name="navigation_drawer_open">Open navigatie drawer</string>
+    <string name="navigation_drawer_close">Sluit navigatie drawer</string>
+    <string name="close">Sluiten</string>
+    <string name="autonomous">Autonoom</string>
+    <string name="remote">Afstandsbediening</string>
+    <string name="line_tracker">Linetracker</string>
+    <string name="slave">Achtervolgen</string>
+    <string name="author">Door pittvandewitt</string>
+</resources>

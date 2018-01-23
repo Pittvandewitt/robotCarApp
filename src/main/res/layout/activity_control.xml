@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_control"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_horizontal_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.pittvandewitt.hc05.ControlActivity"
+    tools:showIn="@layout/app_bar_main">
+
+    <TextView
+        android:id="@+id/connection_state"
+        android:layout_width="wrap_content"
+        android:layout_height="72dp"
+        android:paddingBottom="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_horizontal_margin"
+        android:text="@string/connection_state" />
+
+    <RelativeLayout
+        android:id="@+id/controls"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <com.pittvandewitt.hc05.ButtonClick
+            android:id="@+id/left"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:layout_centerVertical="true"
+            android:layout_toStartOf="@+id/remote_seek_bar"
+            android:gravity="center"
+            android:text="@string/command_left" />
+
+        <TextView
+            android:id="@+id/up"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="@string/command_up" />
+
+        <TextView
+            android:id="@+id/sensitivity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:text="@string/sensitivity"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/down"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:text="@string/command_down" />
+
+        <com.pittvandewitt.hc05.VerticalSeekBar
+            android:id="@+id/speed_seek_bar"
+            android:layout_width="48dp"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/down"
+            android:layout_below="@+id/up"
+            android:layout_centerInParent="true"
+            android:max="5"
+            android:minWidth="48dp" />
+
+        <com.pittvandewitt.hc05.VerticalSeekBar
+            android:id="@+id/remote_seek_bar"
+            android:layout_width="72dp"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/down"
+            android:layout_below="@+id/up"
+            android:layout_centerInParent="true"
+            android:max="10"
+            android:minWidth="48dp" />
+
+        <com.pittvandewitt.hc05.ButtonClick
+            android:id="@+id/right"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/remote_seek_bar"
+            android:gravity="center"
+            android:text="@string/command_right" />
+    </RelativeLayout>
+
+</LinearLayout>

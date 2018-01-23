@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">RobotCar</string>
+    <string name="connection_state">Connection state</string>
+    <string name="connection_try">Trying to connect to</string>
+    <string name="connection_lost">Connection lost, reconnecting&#8230;</string>
+    <string name="bluetooth_on">Bluetooth turned on</string>
+    <string name="bluetooth_reconnect">Connected with bluetooth device, reconnecting&#8230;</string>
+    <string name="bluetooth_off">Bluetooth was turned off, restarting&#8230;</string>
+    <string name="never_paired">was never paired. Please pair first using Android settings</string>
+    <string name="command_send_try">trying to send "%1$s"</string>
+    <string name="command_sent">Successfully sent "%1$s"</string>
+    <string name="command_not_sent">could not send "%1$s" because there is no socket connection</string>
+    <string name="command_up">Forward</string>
+    <string name="command_down">Backward</string>
+    <string name="command_left">Left</string>
+    <string name="command_right">Right</string>
+    <string name="sensitivity">Speed</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="close">Close</string>
+    <string name="autonomous">Autonomous</string>
+    <string name="remote">Remote</string>
+    <string name="line_tracker">Line Tracker</string>
+    <string name="slave">Follow Car</string>
+    <string name="author">By pittvandewitt</string>
+</resources>

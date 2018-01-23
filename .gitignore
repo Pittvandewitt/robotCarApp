@@ -1,0 +1,13 @@
+/.externalNativeBuild
+/build
+/gradle
+app.iml
+lint.xml
+.idea
+.gradle
+.gitattributes
+local.properties
+gradlew
+gradlew.bat
+*.apk
+release/output.json
